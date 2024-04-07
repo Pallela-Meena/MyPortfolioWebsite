@@ -1,0 +1,293 @@
+/*Navbar backgorund color*/
+.navbar-style{
+    background-color: rgb(9, 9, 70);
+}
+
+/*Links styling*/
+.navbar-links-styling{
+    color: rgb(78, 207, 222);
+    font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-style: oblique;
+    margin-right: 10px;
+}
+
+/*Portfolio styling*/
+.portfolio{
+    font-size: 24px;
+    margin-left: 20px;
+    margin-right: 80px;
+}
+
+ /* Set the border color */
+.custom-toggler.navbar-toggler {
+    border-color: rgb(78, 207, 222);
+    border: none;
+}
+
+/* Setting the stroke to green using rgb values (0, 128, 0) */
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba( 78, 207, 222)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/*To make toggler border none*/
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.resume-button{
+    margin-right: 50px;
+}
+
+
+
+/*Home*/
+.home-background{
+    height: 100vh;
+    background-image: radial-gradient(rgb(61, 144, 154),rgb(22, 22, 82));
+}
+
+.my-main-image{
+    height: 450px;
+    width: 450px;
+    border: 6px solid rgb(9, 9, 70);
+    border-radius: 300px;
+    box-shadow: 2px 4px 20px rgb(161, 176, 244);
+}
+ 
+.main-intro{
+    font-style: italic;
+    font-family: 'Dancing Script', 'cursive';
+    color: rgb(220, 248, 250);
+    align-items: center;
+}
+
+.main-heading{
+    font-size: 42px;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .main-intro{
+        text-align: center;
+        font-size: 24px;
+    }
+    .my-main-image{
+        height: 300px;
+        width: 300px;
+        border: 4px solid rgb(9, 9, 70);
+        border-radius: 150px;
+        margin-top: 60px;
+    }
+    .main-heading{
+        font-size: 32px;
+    }
+  }
+
+/*About Me*/
+.aboutme-background{
+    background-image: linear-gradient(rgb(61, 144, 154),rgb(96, 96, 162),rgb(61, 144, 154));
+}
+.about-card{
+    background-image: radial-gradient(rgb(224, 249, 252),rgb(227, 239, 246),rgb(223, 245, 247),rgb(141, 204, 246));
+    border-radius: 50px;
+    font-family: 'Dancing Script', 'cursive';
+    padding: 25px;
+}
+.about-me-heading{
+    font-family: 'Dancing Script', 'cursive';
+    font-weight: bold;
+    color: #000099;
+    text-shadow: 4px 4px 4px rgb(108, 242, 242);
+}
+.about-me-text{
+    font-family: 'Dancing Script', 'cursive';
+    font-size: 20px;
+    color: rgb(3, 53, 54);
+    text-shadow: 1px 1px 1px rgb(201, 197, 247);
+}
+.icon{
+    height: 30px;
+    width: 30px;
+    color: #000099;
+}
+.icon-name{
+    color: rgb(9, 66, 67);
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .icon{
+        height: 25px;
+        width: 25px;
+        margin-top: 20px;
+    }
+    .icon-name{
+        font-weight: 200;
+        font-size: 16px;
+    }
+    .about-me-text{
+        font-size: 18px;
+    }
+  }
+@media screen and (min-width: 1200px) {
+    .icon{
+        margin-top: 40px;
+    }
+    .icon-name{
+        font-weight: 400;
+        font-size: 22px;
+    }
+  }
+
+
+
+/*Skills*/
+.skills-background{
+    background-image: radial-gradient(rgb(224, 249, 252),rgb(208, 231, 245),rgb(213, 244, 247),rgb(95, 178, 234));
+}
+
+.skills-card{
+    border-radius: 50px;
+    font-family: 'Dancing Script', 'cursive';
+    padding: 25px;
+}
+.skills-heading{
+    font-family: 'Dancing Script', 'cursive';
+    font-weight: bold;
+    color: #000099;
+    text-shadow: 4px 4px 4px rgb(108, 242, 242);
+}
+.skill-type-heading{
+    font-family: 'Dancing Script', 'cursive';
+    font-size: 20px;
+    font-weight: 600;
+    color: #000099;
+}
+.skill-card{
+    box-shadow: 2px 2px 2px 2px rgb(42, 38, 105);
+}
+.badge-text{
+    color: #000099;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.skill-image{
+    height: 48px;
+    width: 48px;
+}
+
+
+/*Projects*/
+.projects-background{
+    background-image: linear-gradient(rgb(61, 144, 154),rgb(96, 96, 162),rgb(61, 144, 154));
+}
+.projects-container{
+    border-radius: 50px;
+    background-image: radial-gradient(rgb(224, 249, 252),rgb(227, 239, 246),rgb(223, 245, 247),rgb(141, 204, 246));
+}
+.project-card{
+    background-image: radial-gradient(#ffffff,rgb(250, 250, 242));
+}
+.carousel-shadow{
+    box-shadow: 2px 2px 2px 4px rgb(3, 100, 128);
+}
+.projects-title{
+    font-family: 'Dancing Script', 'cursive';
+    font-weight: bold;
+    color: #000099;
+    text-shadow: 4px 4px 4px rgb(108, 242, 242);
+}
+.project-title{
+    font-family: 'Dancing Script', 'cursive';
+    font-size: 28px;
+    color: rgb(3, 35, 35);
+    font-weight: 600;
+}
+.project-card-title{
+    font-family: 'Dancing Script', 'cursive';
+    font-size: 22px;
+    color: rgb(37, 21, 175);
+    font-weight: 600;
+}
+.project-icon{
+    height: 20px;
+    width: 20px;
+}
+.project-icon-name{
+    text-decoration: none;
+    color: #03033a;
+}
+.techstack-image{
+    height: 30px;
+    width: 30px;
+}
+.techstack-heading{
+    color: rgb(37, 21, 175);
+    font-family: 'Dancing Script', 'cursive';
+    font-weight: bold;
+    font-size: 18px;
+}
+.tech-name{
+    color: #27045f;
+    font-family: 'Dancing Script', 'cursive';
+    font-size: 16px;
+    margin-right: 10px;
+}
+@media screen and (max-width: 990px) {
+    .add-padding{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .project-title{
+        font-size: 20px;
+    }
+  }
+
+.a{
+    background-color: blueviolet;
+}
+.b{
+    background-color: rgb(0, 123, 147);
+}
+
+
+/*Footer*/
+.footer-body{
+    background-image: radial-gradient(#0d0d5b,#03033a);
+    color: aqua;
+}
+.footer-image{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+}
+.footer-headings{
+    font-size: 24px;
+    color: rgb(166, 181, 248);
+    font-family: 'Dancing Script', 'cursive';
+    font-size: 20px;
+}
+.footer-icon{
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .footer-headings{
+        font-size: 18px;
+    }
+    .footer-body{
+        font-size: 12px;
+    }
+  }
+
+
